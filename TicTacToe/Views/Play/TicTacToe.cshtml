@@ -95,9 +95,10 @@
                 var x = checkForWinner();
                 if (x != '') {
                     alert(x + " is winner");
-                    $("#newgame").fadeIn('slow');
                     //$("#stop").fadeIn('slow');
                 }
+                $("#newgame").fadeIn('slow');
+
             };
 
             game.client.reload = function (something) {
